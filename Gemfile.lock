@@ -91,6 +91,7 @@ GEM
     minitest (4.7.5)
     multi_json (1.8.1)
     orm_adapter (0.4.0)
+    ots (0.5.4)
     pg (0.15.1)
     polyglot (0.3.3)
     pry (0.9.12.2)
@@ -188,6 +189,7 @@ DEPENDENCIES
   haml-rails
   jbuilder (~> 1.2)
   jquery-rails
+  ots
   pg (= 0.15.1)
   rails (= 4.0.0)
   rails_12factor

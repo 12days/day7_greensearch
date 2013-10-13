@@ -26,6 +26,9 @@ group :production do
   gem 'rails_12factor'
 end
 
+# ruby bindings to open text summarizer - https://github.com/deepfryed/ots
+gem 'ots'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 

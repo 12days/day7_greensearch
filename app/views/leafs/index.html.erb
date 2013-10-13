@@ -1,0 +1,6 @@
+<h2>Leafy Days</h2>
+
+<% @leaf.each do |leaf| %>
+  <%= link_to leaf.name, leaf_path(leaf) %>
+  <br>
+<% end %>
