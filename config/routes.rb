@@ -1,6 +1,7 @@
 Day7Greensearch::Application.routes.draw do
 
-  root 'leafs#index'
+  devise_for :users
+  root to:'leafs#index'
   resources :leafs
 
   # Example resource route with options:
